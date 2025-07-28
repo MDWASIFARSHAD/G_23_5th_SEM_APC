@@ -16,6 +16,9 @@ public class MCQImplementation {
 //
 //		Function<Integer, Integer> combined = multiplyByTwo.andThen(addThree);
 //		System.out.println(combined.apply(5));
+
+
+
 		
 		
 //		FileWriter fw = new FileWriter("output.txt");
