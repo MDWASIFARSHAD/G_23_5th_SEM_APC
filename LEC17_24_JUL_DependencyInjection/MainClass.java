@@ -6,6 +6,7 @@ public class MainClass {
 		
 		Phone p = new Phone();
 		Iphone i = new Iphone(p);
+
 		
 		i.security();
 	}
