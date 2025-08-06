@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+
+<beans>
+
+<!--<bean id="student"  class="com.Spring_Core_G23.Student">
+<property name="sId" value="1"></property>
+<property name="name" value="Durgesh"></property>
+<property name="course" value="Java Developers"></property>
+</bean>
+
+<bean id="address" class="com.Spring_Core_G23.Address">
+<property name="street" value="Rajpura"></property>
+<property name="city" value="Chandigrah"></property>
+<property name="state" value="punjab"></property>
+</bean>  --> 
+<bean id="address" class="com.Spring_Core_G_23_1.Address1">
+<property name="street" value="Chitakara"></property>
+<property name="city" value="Ludiana"></property>
+<property name="State" value="Punjab"></property>
+
+
+ </bean>
+
+
+<bean id="student1" class="com.Spring_Core_G_23_1.Student1">
+<property name="sId" value="2"></property>
+<property name="name" value="wasif"></property>
+<property name="course">
+<list>
+<value>Java</value>
+<value>Python</value>
+<value>DOtNet</value>
+</list>
+</property>
+<property name="courseAndTrainer">
+<map>
+<entry key="Java" value="Wasif" />
+<entry key="Python" value="Madhav" />
+<entry key="Dotnet" value="SHreya" />
+
+
+</map>
+</property>
+</bean>
+
+
+</beans>
